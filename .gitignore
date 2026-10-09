@@ -7,6 +7,9 @@ dist/
 # 运行时数据目录（数据库文件、背景图副本），避免把个人数据提交上去
 data/
 
+# 本机专用的 Maven JVM 参数（修正本机 user.home），含用户名且因人而异，不入库
+.mvn/jvm.config
+
 # IntelliJ IDEA 配置
 .idea/
 *.iml
