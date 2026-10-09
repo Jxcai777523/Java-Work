@@ -1,0 +1,28 @@
+# Maven 编译输出
+target/
+
+# jpackage 打包产物（含约 168 MB 内置 JRE，不入库；用 build-package.ps1 重新生成）
+dist/
+
+# 运行时数据目录（数据库文件、背景图副本），避免把个人数据提交上去
+data/
+
+# IntelliJ IDEA 配置
+.idea/
+*.iml
+*.ipr
+*.iws
+out/
+
+# 本地数据库文件（正式数据存放在用户目录，此处防止误提交）
+*.db
+*.db-journal
+*.db-wal
+
+# 日志与临时文件
+*.log
+*.tmp
+
+# 操作系统文件
+.DS_Store
+Thumbs.db
